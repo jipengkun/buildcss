@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Microsoft Himalaya", "Microsoft Himalaya", snog;
+}
+
+img{border: none}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.wp {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    height: 24px;
+    background-color: #303030;
+    line-height: 24px;
+    color: #d8d8d8;
+}
+
+.top span {
+    margin: 0;
+}
+
+.top span {
+    margin-right: 15px;
+}
+
+.top span.zero {
+    margin: 0;
+}
+
+.top a {
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: #ff6600;
+}
+
+/*logos*/
+.logos {
+    height: 59px;
+    margin: 10px 0;
+}
+
+
+/*搜索*/
+.sousuo {
+    width: 350px;
+    height: 41px;
+    margin-left: 80px;
+}
+
+.sousuo td {
+    height: 41px;
+}
+
+.s_z {
+    width: 6px;
+    height: 41px;
+    background: url("../images/s_z.jpg");
+    background-repeat: no-repeat;
+}
+
+.s_c {
+    width: 240px;
+    height: 41px;
+    background: url("../images/s_c.jpg");
+    background-repeat: repeat-x;
+}
+
+.s_y {
+    width: 78px;
+    height: 41px;
+    background: url("../images/s_r.jpg");
+    background-repeat: no-repeat;
+}
+.s_c input {
+    height: 35px;
+    width: 240px;
+    line-height: 35px;
+    border: none;
+    margin-top: 1px;
+}
+.s_y button {
+    width: 78px;
+    height: 41px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.dianhua {
+    font-size: 35px;
+    color: darkred;
+    line-height: 60px;
+}
+
+
+/*导航*/
+.nav {
+    height: 39px;
+    width: 100%;
+    background-image: url("../images/nav_bg.jpg");
+    background-repeat: repeat-x;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 28px;
+}
+
+.nav li.a,.nav li:hover{
+    background-image: url("../images/nav_hover.jpg");
+    background-repeat: repeat-x;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.tit {
+    padding-bottom: 8px;
+    border-bottom: 1px solid darkred;
+    position: relative;
+}
+
+.tit span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.tit a {
+    font-size: 25px;
+    color: darkred;
+    text-decoration: none;
+}
+
+.jianjie {
+    width: 520px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.xinwen {
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+}
+.chanpin {
+    width: 100%;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+.jj_c {
+    margin-top: 5px;
+}
+
+.jj_c img {
+    float: left;
+}
+
+.jj_c p {
+    color: rgb(140,140,140);
+    text-indent: 20px;
+}
+
+.xw_c {
+    margin-top: 5px;
+}
+
+.xw_c li{
+    list-style: none;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 10px;
+    background: url("../images/list_bg.jpg") no-repeat center left;
+}
+
+.xw_c span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: #888888;
+}
+
+.xw_c a {
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float</title>
+    <style type="text/css">
+        body {
+            width: 1024px;
+            height: 768px;
+            margin: 0 auto;
+            background-color: #f1f1f1;
+        }
+
+        .left {
+            width: 224px;
+            height: 500px;
+            background-color: green;
+            float: left;
+        }
+
+        .right {
+            width:800px;
+            height:500px;
+            background-color: aqua;
+            float: right;
+        }
+        .bottom {
+            width: 1024px;
+            height: 268px;
+            background-color: blue;
+            clear: both;
+        }
+
+        .over {
+            height: 50px;
+            background-color: brown;
+            overflow: scroll;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="div"></div>
+    <div class="left">
+        <div class="over">
+            <p>永远永远永远永远永远永远永远</p>
+            <p>永远永远永远永远永远永远永远</p>
+            <p>永远永远永远永远永远永远永远</p>
+            <p>永远永远永远永远永远永远永远</p>
+            <p>永远永远永远永远永远永远永远</p>
+            <p>永远永远永远永远永远永远永远</p>
+            <p>永远永远永远永远永远永远永远</p>
+        </div>
+    </div>
+    <div class="right"></div>
+    <div class="bottom"></div>
+</body>
+</html>
