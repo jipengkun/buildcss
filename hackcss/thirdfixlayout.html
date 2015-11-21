@@ -2,15 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>三栏固定布局</title>
+    <title>三栏固定布局,为栏设定内边距和边框</title>
     <style>
+        .wrapper {
+            width: 960px;
+            margin: 0 auto;
+            border: 1px solid;
+        }
 
-        
+        nav {
+            width: 150px;
+            float: left;
+            background-color: #486B02;
+        }
+
+        nav li {
+            list-style-type: none;
+        }
+
+        article {
+            background-color: #3eff14;
+            float: left;
+            width: 600px;
+        }
+
+        .inner {
+            padding: 10px 20px;
+        }
+
+        aside {
+            width: 210px;
+            float: left;
+            background-color: #ff6600;
+        }
+
+        header {
+            background-color: aqua;
+        }
+
+        footer {
+            text-align: center;
+            background-color: brown;
+            clear: both;
+        }
     </style>
 
 
 </head>
 <body>
+
+<div class="wrapper">
+    <header>
+        a fixed-width layout
+    </header>
+
+    <nav>
+        <div class="inner">
+            <ul>
+                <li>现在</li>
+                <li>现在</li>
+                <li>现在</li>
+            </ul>
+        </div>
+    </nav>
+    <article>
+        <div class="inner">
+            现在有越来越多的人抱怨移动网络的网速太慢。这是个永恒的话题，因为无论移动网络网速多快也满足不了日益增长的网速需求。在14.4K调制解调器下龟速上网的时代早已被人们遗忘，现在人们的要求是瞬间打开任何网页。
+
+            然而奇怪的是，现在人们抱怨的并不是网速，而是抱怨网络本身。如果单说提高网速的话，可以通过提升网络速度、降低网络延迟、或者是直接提高浏览器的速度来解决。但是抱怨网络本身的话，恐怕只能把锅甩给开创万维网的人了吧。
+
+            网页在数量上的扩张速度是非常惊人的。由HTTP
+            Archive进行的调查研究结果显示，在2012年1月，平均打开一个页面所需加载的数据量为1239kB，共计86次请求；而到了2015年9月，数据量增长到了2,162kB，请求数增加到了103次。这些数字虽然并不直接与页面加载和渲染所需的时间相挂钩，但是却是网页所含信息量发生变化的一个重要指标。
+        </div>
+    </article>
+    <aside>
+        <div class="inner">
+            <!--这里是一些文本-->
+            现在有越来越多的人抱怨移动网络的网速太慢。这是个永恒的话题，因为无论移动网络网速多快也满足不了日益增长的网速需求。在14.4K调制解调器下龟速上网的时代早已被人们遗忘，现在人们的要求是瞬间打开任何网页。
+
+            然而奇怪的是，现在人们抱怨的并不是网速，而是抱怨网络本身。如果单说提高网速的话，可以通过提升网络速度、降低网络延迟、或者是直接提高浏览器的速度来解决。但是抱怨网络本身的话，恐怕只能把锅甩给开创万维网的人了吧。
+
+            网页在数量上的扩张速度是非常惊人的。由HTTP
+            Archive进行的调查研究结果显示，在2012年1月，平均打开一个页面所需加载的数据量为1239kB，共计86次请求；而到了2015年9月，数据量增长到了2,162kB，请求数增加到了103次。这些数字虽然并不直接与页面加载和渲染所需的时间相挂钩，但是却是网页所含信息量发生变化的一个重要指标。
+        </div>
+    </aside>
+
+    <footer>
+        <div class="inner">
+            网页在数量上的扩张速度
+        </div>
+    </footer>
+
+</div>
+
 
 </body>
 </html>

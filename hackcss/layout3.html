@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多行多栏布局</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+            width: 960px;
+            border: solid 1px;
+        }
+
+        header {
+            background-color: gray;
+        }
+
+        nav {
+            background-color: lightslategray;
+        }
+
+        section#feature_area article {
+            width: 320px;
+            float: left;
+            /*对于作为栏的容器,只能添加垂直内边距*/
+            padding: 10px 0;
+            background-color: #fff;
+            border-top: 4px solid #f7be84;
+        }
+
+        /*为所有内容盒子添加公共样式*/
+        section#feature_area article .inner {
+            margin: 10px 20px;
+            text-indent: 20px;
+            padding: 5px;
+            background-color: gray;
+            border: 5px solid;
+        }
+
+        /*以下三条分别为三个内容盒子设定样式*/
+        section#feature_area article:nth-child(1) .inner {
+            border-color: #d7dd6f;
+        }
+
+        section#feature_area article:nth-child(2) .inner {
+            border-color: #f6dec5;
+        }
+
+        section#feature_area article:nth-child(3) .inner {
+            border-color: #d1d8e4;
+        }
+
+
+        section#promo_area article {
+            width: 240px;
+            float: left;
+            padding: 10px 0;
+            background-color: #fff;
+        }
+
+        section#promo_area article .inner {
+            margin: 10px 20px;
+            background-color: grey;
+            border: #d7dd6f solid 5px;
+        }
+
+        footer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+        <h1>Full-width content</h1>
+    </header>
+
+    <nav>
+        <p>Navigation menus go here</p>
+    </nav>
+
+    <section id="branding">
+        <img src="../images/ad.jpg">
+    </section>
+
+    <section id="feature_area">
+        <article>
+            <div class="inner">
+                <p>HTML 字符集如需正确地显示 HTML 页面，浏览器必须知道使用何种字符集。
+                    万维网早期使用的字符集是 ASCII。ASCII 支持 0-9 的数字，大写和小写英文字母表，以及一些特殊字符。</p>
+            </div>
+        </article>
+        <article>
+            <div class="inner">
+
+                <p>HTML 字符集如需正确地显示 HTML 页面，浏览器必须知道使用何种字符集。
+                    万维网早期使用的字符集是 ASCII。ASCII 支持 0-9 的数字，大写和小写英文字母表，以及一些特殊字符。</p>
+            </div>
+        </article>
+        <article>
+            <div class="inner">
+                <p>HTML 字符集如需正确地显示 HTML 页面，浏览器必须知道使用何种字符集。
+                    万维网早期使用的字符集是 ASCII。ASCII 支持 0-9 的数字，大写和小写英文字母表，以及一些特殊字符。</p>
+            </div>
+        </article>
+    </section>
+
+
+    <section id="promo_area">
+        <article>
+            <div class="inner">
+                <p>Unicode 标准
+                    由于上面列出的字符集都有容量限制，而且不兼容多语言环境，Unicode 联盟开发了 Unicode 标准。
+                    Unicode 标准涵盖了世界上的所有字符、标点和符号。
+                    不论是何种平台、程序或语言，Unicode 都能够进行文本数据的处理、存储和交换。</p>
+            </div>
+        </article>
+        <article>
+            <div class="inner">
+
+                <p>Unicode 标准
+                    由于上面列出的字符集都有容量限制，而且不兼容多语言环境，Unicode 联盟开发了 Unicode 标准。
+                    Unicode 标准涵盖了世界上的所有字符、标点和符号。
+                    不论是何种平台、程序或语言，Unicode 都能够进行文本数据的处理、存储和交换。</p>
+            </div>
+        </article>
+        <article>
+            <div class="inner">
+                <p>Unicode 标准
+                    由于上面列出的字符集都有容量限制，而且不兼容多语言环境，Unicode 联盟开发了 Unicode 标准。
+                    Unicode 标准涵盖了世界上的所有字符、标点和符号。
+                    不论是何种平台、程序或语言，Unicode 都能够进行文本数据的处理、存储和交换。</p>
+            </div>
+        </article>
+        <article>
+            <div class="inner">
+                <p>Unicode 标准
+                    由于上面列出的字符集都有容量限制，而且不兼容多语言环境，Unicode 联盟开发了 Unicode 标准。
+                    Unicode 标准涵盖了世界上的所有字符、标点和符号。
+                    不论是何种平台、程序或语言，Unicode 都能够进行文本数据的处理、存储和交换。</p>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>A CSS template</p>
+    </footer>
+</div>
+
+
+</body>
+</html>
